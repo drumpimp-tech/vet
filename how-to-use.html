@@ -1,86 +1,222 @@
-VET
-How to Use VET
-Verified Evaluated Truth — Fact Check Everything
-3 WAYS TO VET CONTENT
-✂️
-Copy & Paste
-Copy any post caption or headline, paste it into the VET tab text box, tap VET This Post.
-📤
-Share → VET
-In Instagram, TikTok, Twitter or any app — tap Share, find VET, tap it. Auto-analyzes instantly.
-🌐
-Browser Tab
-Open a platform, scroll to a post, highlight the caption, tap VET This at the bottom.
-🔗
-Paste a Link
-For news articles and public pages, paste the URL — VET fetches the content automatically.
-💡 Best method for social media: Use the Share button inside Instagram, TikTok, or Twitter — tap Share → VET. It's one tap and fully automatic.
-VET TAB
-1
-Select Content Type
-Choose from Text Claim, News Headline, Image / AI, or Video Claim. VET adjusts its scoring criteria based on the type. For images, a photo picker opens instead of the text box.
-2
-Paste Your Content
-Paste a post caption, headline, claim, or article URL into the text box. VET auto-detects the platform from any URL you paste.
-3
-Tap VET This Post
-VET searches the web for live context, then runs Claude AI analysis to generate scores, flags, and sources. Results appear in seconds.
-⚠️ Instagram, TikTok, Facebook, and Twitter links can't be fetched automatically. For those, use Share → VET or copy the post text directly.
-BROWSER TAB
-1
-Search or Pick a Platform
-Type any URL or search term in the search bar at the top, or tap a platform from the grid (Instagram, Twitter/X, TikTok, Facebook, YouTube, Reddit, Truth Social, Telegram).
-2
-Navigate to the Post
-Browse normally. Back/forward buttons are in the top left. Tap the house icon to return to the platform home screen.
-3
-Highlight & VET
-Long-press the post caption to highlight just that text, then tap VET This at the bottom. If nothing is highlighted, VET captures the full visible page content.
-SHARE EXTENSION (RECOMMENDED FOR SOCIAL MEDIA)
-1
-Open Any Post in Any App
-Works in Instagram, TikTok, Twitter/X, Facebook, Safari, news apps — anywhere with a Share button.
-2
-Tap Share → VET
-Tap the Share icon (↑), scroll the share sheet to find VET, tap it. The app opens and automatically begins analysis.
-3
-See Results
-VET populates with the shared content, shows it to you briefly, then begins analysis. Scores and verdict appear automatically.
-CONTENT TYPES & SCORING
-Text Claim
-Balanced scoring across Truth, Factual, and Source Trust equally.
-News Headline
-Source Trust weighted heavily. Unverified accounts posting news claims score lower.
-Video Claim
-Truth Score weighted heavily. Skeptical of dramatic or unverifiable video claims.
-Image / AI
-Analyzes for AI generation artifacts — hands, text, lighting, backgrounds. Returns "AI Generated" verdict if likely synthetic.
-UNDERSTANDING SCORES
-75–100
-Strong — well-supported, accurate, credible source.
-50–74
-Moderate — some truth but possibly missing context or weak sourcing.
-20–49
-Low — significant accuracy or credibility issues. Treat with caution.
-0–19
-Critical — DANGER alert fires. Do not share.
-Truth
-How accurately the claim is stated and framed.
-Factual
-Whether the underlying facts are verifiable and correct.
-Source Trust
-Credibility of the account or outlet that posted it.
-VERDICTS
-✓ Verified
-✓ Mostly True
-⚠ Misleading
-? Unverified
-✗ False
-🎭 Satire
-🤖 AI Generated
-⚠ DANGER
-⚠ DANGER Alert
-When any single score drops below 20, VET fires a full DANGER alert — red screen flash, haptic burst, and audio sting. A modal shows the scores and specific red flags. This content is likely harmful misinformation. Do not share it.
-VET PRO
-Free tier includes 25 analyses per month, resetting on the 1st. VET Pro gives you unlimited analyses with monthly ($2.99) or annual ($19.99) subscription. Manage in Settings → Go Pro.
-© 2026 TrevBeats Multimedia · Privacy Policy
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How to Use VET</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #03060f; color: #fff; line-height: 1.7; padding: 40px 20px; }
+  .container { max-width: 720px; margin: 0 auto; }
+  .hero { text-align: center; padding: 60px 0 48px; }
+  .hero-badge { display: inline-flex; align-items: center; justify-content: center; width: 80px; height: 80px; border-radius: 22px; background: linear-gradient(135deg, #0a1628, #0d2240); border: 1px solid rgba(0,212,255,.25); margin-bottom: 20px; }
+  .hero-badge span { color: #00d4ff; font-weight: 900; font-size: 28px; letter-spacing: 2px; }
+  .hero h1 { font-size: 34px; font-weight: 800; background: linear-gradient(135deg, #fff 0%, #00d4ff 60%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+  .hero p { font-size: 16px; color: rgba(255,255,255,.55); margin-top: 10px; }
+  .section { margin-bottom: 48px; }
+  .section-label { font-size: 11px; font-weight: 700; letter-spacing: 3px; color: #00d4ff; text-transform: uppercase; margin-bottom: 20px; }
+  .step { display: flex; gap: 20px; margin-bottom: 24px; }
+  .step-num { flex-shrink: 0; width: 32px; height: 32px; border-radius: 50%; background: rgba(0,212,255,.12); border: 1px solid rgba(0,212,255,.3); display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 700; color: #00d4ff; }
+  .step-body h3 { font-size: 15px; font-weight: 600; margin-bottom: 4px; }
+  .step-body p { font-size: 14px; color: rgba(255,255,255,.55); }
+  .cards { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  @media (max-width: 500px) { .cards { grid-template-columns: 1fr; } }
+  .card { background: rgba(255,255,255,.04); border: 1px solid rgba(255,255,255,.08); border-radius: 14px; padding: 18px; }
+  .card-icon { font-size: 22px; margin-bottom: 10px; }
+  .card h3 { font-size: 14px; font-weight: 600; margin-bottom: 6px; }
+  .card p { font-size: 13px; color: rgba(255,255,255,.5); }
+  .highlight { background: rgba(0,212,255,.07); border: 1px solid rgba(0,212,255,.2); border-radius: 12px; padding: 16px 20px; margin: 16px 0; }
+  .highlight p { font-size: 14px; color: rgba(255,255,255,.7); }
+  .score-row { display: flex; align-items: center; gap: 14px; padding: 12px 0; border-bottom: 1px solid rgba(255,255,255,.06); }
+  .score-row:last-child { border-bottom: none; }
+  .score-pill { font-size: 12px; font-weight: 700; padding: 4px 10px; border-radius: 20px; min-width: 52px; text-align: center; }
+  .green { background: rgba(0,200,100,.15); color: #00c864; }
+  .yellow { background: rgba(255,200,0,.12); color: #ffc800; }
+  .orange { background: rgba(255,130,0,.12); color: #ff8200; }
+  .red { background: rgba(255,50,50,.15); color: #ff4444; }
+  .score-row p { font-size: 13px; color: rgba(255,255,255,.6); }
+  .verdicts { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+  .vbadge { font-size: 12px; font-weight: 600; padding: 5px 12px; border-radius: 20px; }
+  .danger-box { background: rgba(255,30,30,.08); border: 1px solid rgba(255,30,30,.25); border-radius: 14px; padding: 18px 22px; }
+  .danger-box h3 { color: #ff4444; font-size: 15px; font-weight: 700; margin-bottom: 8px; }
+  .danger-box p { font-size: 14px; color: rgba(255,255,255,.6); }
+  footer { text-align: center; padding: 40px 0 20px; font-size: 13px; color: rgba(255,255,255,.2); }
+  a { color: #00d4ff; text-decoration: none; }
+  .tip { background: rgba(255,200,0,.06); border: 1px solid rgba(255,200,0,.15); border-radius: 10px; padding: 12px 16px; margin-top: 12px; font-size: 13px; color: rgba(255,255,255,.6); }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <div class="hero">
+    <div class="hero-badge"><span>VET</span></div>
+    <h1>How to Use VET</h1>
+    <p>Verified Evaluated Truth — Fact Check Everything</p>
+  </div>
+
+  <!-- 3 Ways -->
+  <div class="section">
+    <div class="section-label">3 Ways to VET Content</div>
+    <div class="cards">
+      <div class="card">
+        <div class="card-icon">✂️</div>
+        <h3>Copy & Paste</h3>
+        <p>Copy any post caption or headline, paste it into the VET tab text box, tap VET This Post.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">📤</div>
+        <h3>Share → VET</h3>
+        <p>In Instagram, TikTok, Twitter or any app — tap Share, find VET, tap it. Auto-analyzes instantly.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🌐</div>
+        <h3>Browser Tab</h3>
+        <p>Open a platform, scroll to a post, highlight the caption, tap VET This at the bottom.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🔗</div>
+        <h3>Paste a Link</h3>
+        <p>For news articles and public pages, paste the URL — VET fetches the content automatically.</p>
+      </div>
+    </div>
+    <div class="highlight">
+      <p>💡 <strong>Best method for social media:</strong> Use the Share button inside Instagram, TikTok, or Twitter — tap Share → VET. It's one tap and fully automatic.</p>
+    </div>
+  </div>
+
+  <!-- VET Tab -->
+  <div class="section">
+    <div class="section-label">VET Tab</div>
+    <div class="step">
+      <div class="step-num">1</div>
+      <div class="step-body">
+        <h3>Select Content Type</h3>
+        <p>Choose from <strong>Text Claim</strong>, <strong>News Headline</strong>, <strong>Image / AI</strong>, or <strong>Video Claim</strong>. VET adjusts its scoring criteria based on the type. For images, a photo picker opens instead of the text box.</p>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-num">2</div>
+      <div class="step-body">
+        <h3>Paste Your Content</h3>
+        <p>Paste a post caption, headline, claim, or article URL into the text box. VET auto-detects the platform from any URL you paste.</p>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-num">3</div>
+      <div class="step-body">
+        <h3>Tap VET This Post</h3>
+        <p>VET searches the web for live context, then runs Claude AI analysis to generate scores, flags, and sources. Results appear in seconds.</p>
+      </div>
+    </div>
+    <div class="tip">⚠️ Instagram, TikTok, Facebook, and Twitter links can't be fetched automatically. For those, use <strong>Share → VET</strong> or copy the post text directly.</div>
+  </div>
+
+  <!-- Browser Tab -->
+  <div class="section">
+    <div class="section-label">Browser Tab</div>
+    <div class="step">
+      <div class="step-num">1</div>
+      <div class="step-body">
+        <h3>Search or Pick a Platform</h3>
+        <p>Type any URL or search term in the search bar at the top, or tap a platform from the grid (Instagram, Twitter/X, TikTok, Facebook, YouTube, Reddit, Truth Social, Telegram).</p>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-num">2</div>
+      <div class="step-body">
+        <h3>Navigate to the Post</h3>
+        <p>Browse normally. Back/forward buttons are in the top left. Tap the house icon to return to the platform home screen.</p>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-num">3</div>
+      <div class="step-body">
+        <h3>Highlight & VET</h3>
+        <p>Long-press the post caption to highlight just that text, then tap <strong>VET This</strong> at the bottom. If nothing is highlighted, VET captures the full visible page content.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Share Extension -->
+  <div class="section">
+    <div class="section-label">Share Extension (Recommended for Social Media)</div>
+    <div class="step">
+      <div class="step-num">1</div>
+      <div class="step-body">
+        <h3>Open Any Post in Any App</h3>
+        <p>Works in Instagram, TikTok, Twitter/X, Facebook, Safari, news apps — anywhere with a Share button.</p>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-num">2</div>
+      <div class="step-body">
+        <h3>Tap Share → VET</h3>
+        <p>Tap the Share icon (↑), scroll the share sheet to find <strong>VET</strong>, tap it. The app opens and automatically begins analysis.</p>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-num">3</div>
+      <div class="step-body">
+        <h3>See Results</h3>
+        <p>VET populates with the shared content, shows it to you briefly, then begins analysis. Scores and verdict appear automatically.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Content Types -->
+  <div class="section">
+    <div class="section-label">Content Types & Scoring</div>
+    <div class="score-row"><div class="score-pill" style="background:rgba(0,180,255,.1);color:#00b4ff;min-width:110px;">Text Claim</div><p>Balanced scoring across Truth, Factual, and Source Trust equally.</p></div>
+    <div class="score-row"><div class="score-pill" style="background:rgba(0,180,255,.1);color:#00b4ff;min-width:110px;">News Headline</div><p>Source Trust weighted heavily. Unverified accounts posting news claims score lower.</p></div>
+    <div class="score-row"><div class="score-pill" style="background:rgba(0,180,255,.1);color:#00b4ff;min-width:110px;">Video Claim</div><p>Truth Score weighted heavily. Skeptical of dramatic or unverifiable video claims.</p></div>
+    <div class="score-row"><div class="score-pill" style="background:rgba(0,180,255,.1);color:#00b4ff;min-width:110px;">Image / AI</div><p>Analyzes for AI generation artifacts — hands, text, lighting, backgrounds. Returns "AI Generated" verdict if likely synthetic.</p></div>
+  </div>
+
+  <!-- Scores -->
+  <div class="section">
+    <div class="section-label">Understanding Scores</div>
+    <div class="score-row"><div class="score-pill green">75–100</div><p>Strong — well-supported, accurate, credible source.</p></div>
+    <div class="score-row"><div class="score-pill yellow">50–74</div><p>Moderate — some truth but possibly missing context or weak sourcing.</p></div>
+    <div class="score-row"><div class="score-pill orange">20–49</div><p>Low — significant accuracy or credibility issues. Treat with caution.</p></div>
+    <div class="score-row"><div class="score-pill red">0–19</div><p>Critical — DANGER alert fires. Do not share.</p></div>
+
+    <div style="margin-top:20px;">
+      <div class="score-row"><div class="score-pill" style="background:rgba(0,212,255,.1);color:#00d4ff;min-width:90px;">Truth</div><p>How accurately the claim is stated and framed.</p></div>
+      <div class="score-row"><div class="score-pill" style="background:rgba(0,212,255,.1);color:#00d4ff;min-width:90px;">Factual</div><p>Whether the underlying facts are verifiable and correct.</p></div>
+      <div class="score-row"><div class="score-pill" style="background:rgba(0,212,255,.1);color:#00d4ff;min-width:90px;">Source Trust</div><p>Credibility of the account or outlet that posted it.</p></div>
+    </div>
+  </div>
+
+  <!-- Verdicts -->
+  <div class="section">
+    <div class="section-label">Verdicts</div>
+    <div class="verdicts">
+      <span class="vbadge" style="background:rgba(0,200,100,.12);color:#00c864;">✓ Verified</span>
+      <span class="vbadge" style="background:rgba(0,200,150,.1);color:#00c896;">✓ Mostly True</span>
+      <span class="vbadge" style="background:rgba(255,160,0,.1);color:#ffa000;">⚠ Misleading</span>
+      <span class="vbadge" style="background:rgba(150,150,150,.1);color:#aaa;">? Unverified</span>
+      <span class="vbadge" style="background:rgba(255,60,60,.12);color:#ff4444;">✗ False</span>
+      <span class="vbadge" style="background:rgba(160,0,255,.1);color:#b060ff;">🎭 Satire</span>
+      <span class="vbadge" style="background:rgba(0,120,255,.1);color:#4499ff;">🤖 AI Generated</span>
+      <span class="vbadge" style="background:rgba(255,0,0,.15);color:#ff2222;">⚠ DANGER</span>
+    </div>
+  </div>
+
+  <!-- Danger -->
+  <div class="section">
+    <div class="danger-box">
+      <h3>⚠ DANGER Alert</h3>
+      <p>When any single score drops below 20, VET fires a full DANGER alert — red screen flash, haptic burst, and audio sting. A modal shows the scores and specific red flags. This content is likely harmful misinformation. Do not share it.</p>
+    </div>
+  </div>
+
+  <!-- Pro -->
+  <div class="section">
+    <div class="section-label">VET Pro</div>
+    <p style="font-size:14px;color:rgba(255,255,255,.6);">Free tier includes 25 analyses per month, resetting on the 1st. VET Pro gives you unlimited analyses with monthly ($2.99) or annual ($19.99) subscription. Manage in Settings → Go Pro.</p>
+  </div>
+
+  <footer>© 2026 TrevBeats Multimedia · <a href="privacy-policy.html">Privacy Policy</a></footer>
+</div>
+</body>
+</html>
